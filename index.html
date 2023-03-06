@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--MetaDatos-->
+    <meta charset="utf-8">
+    <meta name="author"content="Carlos Fabian">
+    <meta name="description" content="Portafolio de Desarrollo Web Carlos Fabian">
+    <meta name="keywords" content="HTML, CSS, Javascript, React, Angular, Node.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo -->
+    <title>Carlos Fabian | Full Stack Developer con Javascript</title>
+    <!--Favicon-->
+    <link rel="icon" type="imagen/x-icon" href="/Radtek (1).ico">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+    <!--Iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <!--Particulas-->
+    <style>
+        *{
+            margin: 0;
+        }
+        #particles-js{
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -1;
+        }
+        #principal{
+            color: rgb(164, 170, 253);
+        }
+    </style>
+</head>
+<body>
+    <!--Barra de Navegación -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#"> 
+                <img src="./Radtek.png" width="150px" height="150px" alt="Logo de la Pagina">
+            </a>
+            
+            <ul class="navbar-nav d-flex justify-content-center aling-items-center">
+              <li class ="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class ="nav-link text-light" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      <!--Seccion Hero -->
+      <section class="hero align-items-streetch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center"> 
+            <div>
+                <img class="hero-imagen-desarrollador rounded-circle" src="./fabian.png.jpeg" alt="Foto de Perfil">
+                <h1> Hola soy Carlos Fabian </h1>
+                <h2> Desarrollo sitios webs y escribo articulos de programación </h2>
+            </div>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="./ImagenPantalla.png" height="" width="300px" alt="Angular, React, HTML, CSS, Node.Js y Bootstrap.">
+        </div>
+      </section>
+      <!--Sobre mi-->
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo texto-blanco">Conoce a Carlos Fabian</h2>
+            <p class="seccion-texto">Mi nombre es Carlos Fabian Acosta Hernandez. Soy estudiante de programación desde diciembre 2021, me gusta crear proyectos y realizar ideas que puedan cambiar el mundo.</p>
+        </div>
+      </section>
+
+
+      <!--Experiencia-->
+      <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!--Desarrollo Web-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Desarrollo Web</p>
+                <p>Durante más de 1 año me he dedicado a estudiar por Academias virtuales y desarrollar proyectos relacionados a las frameworks estudiadas como Angular y React tambien practicar y mejorar mis codigos de HTML y CSS y     sobre todo Javascript.</p>
+                <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-light">HTML</span>
+                    <span class="badge rounded-pill text-bg-light">CSS</span>
+                    <span class="badge rounded-pill text-bg-light">Javascript</span>
+                    <span class="badge rounded-pill text-bg-light">React</span>
+                    <span class="badge rounded-pill text-bg-light">Angular</span>
+                </div>    
+            </div> 
+                <!--Articulos-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Escritos y aportes a la comunidad</p>
+                    <div class="badges-contenedor">
+                        <span class="badge rounded-pill text-bg-light">Escribir</span>
+                        <span class="badge rounded-pill text-bg-light">Editar</span>
+                        <span class="badge rounded-pill text-bg-light">Blogs</span>
+                </div>
+                </div>
+                <!--Estudiante-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Actualmente realizo proyectos de React y Angular y otros donde puedo mejorar mis tecnicas de codigos. </p>
+                    <div class="badges-contenedor">
+                        <span class="badge rounded-pill text-bg-light">Angular</span>
+                        <span class="badge rounded-pill text-bg-light">React</span>
+                        <span class="badge rounded-pill text-bg-light">Bootstrap</span>
+                        <span class="badge rounded-pill text-bg-light">C++</span>
+                </div>
+                </div>
+            <!--Proyectos-->
+            <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+                <h2 class="seccion-titulo texto-negro">Mis Proyectos recientes</h2>
+                <h3 clas="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+                <!--Galeria de Proyectos-->
+                <div class="container text-center proyectos-contenedor">
+                    <div class="row">
+                        <!--Proyecto 1  -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="proyecto">
+                                <img src="./Proyecto2.png" alt="Proyecto 1">
+                                <div class="overlay">
+                                    <p>Proyecto 1</p>
+                                    <div class="iconos-contenedores">
+                                        <a href="https://chzfabian.github.io/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://github.com/chzfabian/chzfabian.github.io" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-laptop"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Proyecto 2  -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="proyecto">
+                                <img src="./EnConstruccion.png" alt="Proyecto 1">
+                                <div class="overlay">
+                                    <p>En construccion</p>
+                                    <div class="iconos-contenedores">
+                                        <i class="bi bi-exclamation-triangle-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Proyecto 3 -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="proyectov">
+                                <video width="320" height="240" controls autoplay>
+                                    <source src="./www.chzfabian.com.mp4" type="video/mp4"> target="_blank">Ver</video>
+                                <div class="overlay">
+                                    <p></p>
+                                    <div class="iconos-contenedores">
+                                            <i class="bi bi-exclamation-triangle-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!--Proyecto 4  -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="proyecto">
+                                <img src="./enconstruccion2.png" alt="Proyecto 4">
+                                <div class="overlay">
+                                    <p>Proyecto 4</p>
+                                    <div class="iconos-contenedores">
+                                        <a href="" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="" target="_blank" rel="noopener noreferrer"></a>
+                                            <i class="bi bi-laptop"></i>
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Proyecto 5  -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="proyecto">
+                                <img src="./enconstruccion2.png" alt="Proyecto 5">
+                                <div class="overlay">
+                                    <p>Proyecto 5</p>
+                                    <div class="iconos-contenedores">
+                                        <a href="" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="" target="_blank" rel="noopener noreferrer"></a>
+                                            <i class="bi bi-laptop"></i>
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Proyecto 6  -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="proyecto">
+                                <img src="./enconstruccion2.png" alt="Proyecto 6">
+                                <div class="overlay">
+                                    <p>Proyecto 6</p>
+                                    <div class="iconos-contenedores">
+                                        <a href="https://github.com/chzfabian" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="" target="_blank" rel="noopener noreferrer"></a>
+                                            <i class="bi bi-laptop"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/chzfabian" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-light">
+                    Ver más proyectos
+                </button>
+            </section>
+</section>  
+        <!--Articulos-->
+        <section class="articulos justify-content-start">    
+            <h2 class="seccion-titulo texto-negro">Artículos</h2>  
+        <div class="card">
+            <div class="card-header"> 
+                    Más recientes
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <a href="https://chzfabian.com/">
+                                <li class="list-group-item">El decorador @property en Phyton - cómo usarlo, ventajas y sintaxis</li>
+                            </a>
+                            <a href="https://chzfabian.com/">
+                                <li class="list-group-item">Diferencia entre Angular en React</li>
+                            </a>
+                            <a href="https://chzfabian.com/">
+                                <li class="list-group-item">10 mandamientos de un Programador</li>
+                            </a>
+                            <a href="https://chzfabian.com/">
+                                <li class="list-group-item">Angular Router</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-light">
+                        Ver más Artículos
+                        <i class="bi bi-arrow-right-circle-fill"></i>
+                    </button>
+                </section>
+                <!--Contacto-->
+                <section id="contacto" class="contacto-seccion-oscura">
+                </section>
+                <!--Pie de pagina (footer)-->
+                <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+                    <img class="footer-logo" src="./Radtek.png" width="300px" alt="LogodelPortafolio">
+                    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos</p>
+                    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                        <a href="https://www.linkedin.com/in/chzfabian/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/fabianhrr/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://github.com/chzfabian" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="cfacosta.16@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                    <div clas="derechos-de-autor">
+                        Creado por Carlos Fabian (2023) &#169
+                    </div>
+                </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--Particulas-->
+    <div id="particles-js"></div>
+
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS(  
+            {
+  "particles": {
+    "number": {
+      "value": 350,
+      "density": {
+        "enable": true,
+        "value_area": 552.4033491425909
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 6
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 53.6,
+        "size_min": 15.429467033725558,
+        "sync": true
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 600
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 250,
+        "size": 0,
+        "duration": 2,
+        "opacity": 0,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+        )
+    </script>
+</body>
+</html>
