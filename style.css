@@ -27,10 +27,15 @@ h1 {
     color: white;
     font-size: 2.5rem;
     font-family: 'Gajraj One', cursive;
+    padding: 2px;
+    align-items: center;
 }
 
 h2 {
  color: white;
+}
+p {
+    color: white;
 }
 .seccion-oscura {
     color: white;
@@ -58,6 +63,19 @@ h2 {
     color: black;
     background-color: transparent;
     font-weight: bold;
+}
+/*Aptitudes*/
+.tech-list {
+    padding: 20px   ;
+}
+/*Certificados*/
+.certificados {
+    padding: 40px 40px 80px 40px;
+}
+.certificados .carousel{
+    max-width: 500px;
+}
+.carousel-item {
 }
 
 
